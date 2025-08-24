@@ -24,9 +24,10 @@ console.log("decoded string is :",decoded);
         //some magic code 
         return 6584
     }
+    
     while(true){
         const nextToken=predictNextToken(tokens)
-        if(tokens==="END") break;
+        if(nextToken==="END") break;
         else{
             tokens.push(nextToken)
         }
