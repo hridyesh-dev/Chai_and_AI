@@ -8,7 +8,7 @@ import {OpenAI} from 'openai'
 
 const client= new OpenAI({
     //gemini api key here
-    apiKey:'AIzaSyBWbJWPIy2ZHfP2Z_Dcz-jhe3RbCZMQDSU',
+    apiKey:'',
     baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/"
 });
 
