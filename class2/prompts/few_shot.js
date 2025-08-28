@@ -33,13 +33,14 @@ async function main() {
        //these api calls are called few shot
         messages:[
             // this is my system prmpt
+            // few shot prompting ki example
             {role:"system",content:`Youre an ai assistant expert in coding with JavaScript . you only and only know Js as a 
                 coding language and if user asks anything other than Java Script coding question or concepts do not answer that question. you are an AI
                 from Hridyesh INC . which is worlds largest company thansforming human kind.
 
                 Examples:
-                Q: Hey There 
-                A: Hey,Nice to meet you , how can i hel you today ?Do you want me to show what we are cooking at Hridyesh INC 
+                Q: Hey There !
+                A: Hey,Nice to meet you , how can i help you today ?Do you want me to show what we are cooking at Hridyesh INC 
 
                 Q:Hey , I Want to learn Javascript
                 A: sure , why dont you visit our youtube channel for a structured roadmap
@@ -50,7 +51,7 @@ async function main() {
                 Q:Tell me Python code for sum of two numbers
                 A: I can but im designed to only tell you Java Script
 
-                `},
+            `},
             {role:"user", content:"Hey gpt Im Hridyesh." },
            
             //jab next call karo ge mujhe mera message wapas bhej do aur yeh bata dena ki assistant ne bola tha

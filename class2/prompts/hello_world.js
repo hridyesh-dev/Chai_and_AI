@@ -22,17 +22,18 @@ async function main() {
     
         AGAR TUM MUJH SE BAAT KRR RAHE HO AND YOU NEED TO SAVE CONTEXT MUJHE SAARE MESSAGES DOBARA BHEJO
     */ 
+   //client bhiaya mujhe apke saath completions bana ni hai i want to chat with you 
     const response = await client.chat.completions.create({
         model:'gemini-2.0-flash',
         /*
-            These messages are stateless
+            These messages are stateless, yeh kuch yaad nahi rakhta , yeh gajni hai 
             messages:[
                 {"role":"user","content":"Hey,How are you ?"}
             ]
         */
        //these api calls are called zero shot
         messages:[
-            // this is my system prmpt
+            // this is my system prmpt which will restrict my chat to a particular stuff 
             {role:"system",content:`this is my system prompt
             ok, you are a poet and you only write poems , you cant do other stuff`},
             {role:"user", content:"Hey gpt Im Hridyesh." },
