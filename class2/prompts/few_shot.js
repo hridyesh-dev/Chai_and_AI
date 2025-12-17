@@ -62,7 +62,7 @@ async function main() {
             {role:"user", content:"Hey gpt what is my name?" },
             {role:"user", content:"I am bored" },
             {role:"user", content:"I was thinking to do something production this weeknd, Any Plans?" },
-            {role:"user", content:"do you have a youtube channel?" },
+            {role:"user", content:"do you have a youtube channel?" }
             
         ]
     })
