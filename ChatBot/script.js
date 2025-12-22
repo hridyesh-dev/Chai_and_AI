@@ -6,9 +6,7 @@ const userInput = document.getElementById('userInput');
 const sendBtn = document.getElementById('sendBtn');
 
 // Initialize Gemini AI
-const ai = new GoogleGenAI({
-    apiKey: "AIzaSyD8ms2iKzc-8ahuAj1BYdeucc910it5KT8"
-});
+const ai = new GoogleGenAI({});
 
 // Create chat session
 const chat = ai.chats.create({
