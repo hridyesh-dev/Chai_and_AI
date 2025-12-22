@@ -52,11 +52,11 @@ const cryptoInfo = {
             coin:{
                 type:Type.STRING,
                 description:"It will be the name of the crypto currency like bitcoin etherium etc"
-            },
-            //kon kon se required hai saari info bhejni hai 
-            required:['coin']
-            //key value pair mai de dega 
-        }
+            }
+        },
+        //kon kon se required hai saari info bhejni hai 
+        required:['coin']
+        //key value pair mai de dega 
     }
 }
 
